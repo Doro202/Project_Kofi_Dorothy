@@ -1,14 +1,18 @@
-{
+
+*{
     margin: 0;
     padding: 0;
 }
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%, url(Kitchen.jpg));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%,url(foods.jpg));
     background-position: center;
     background-size: cover;
     height: 109vh;
+    background-image: url(/Photos/Kitchen.jpg); width: 50% ;
+    
+   
 }
 
 .navbar{
@@ -17,6 +21,11 @@
     margin: auto;
 }
 
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
 
 .logo{
     color: pink;
@@ -41,7 +50,7 @@ ul{
 }
 
 ul li{
-    list-style: circle;
+    list-style: none;
     margin-left: 65px;
     margin-top: 30px;
     font-size: 14px;
