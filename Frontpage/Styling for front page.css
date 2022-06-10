@@ -9,7 +9,7 @@
     background-position: center;
     background-size: cover;
     height: 109vh;
-    background-image: url(/Photos/Kitchen.jpg); width: 100%;
+    background-image: url(/Photos/Kitchen1.jpg); width: 100%;
 }
 
 .navbar{
@@ -25,7 +25,7 @@
 }
 
 .logo{
-    color: rgb(226, 213, 23);
+    color: rgb(226, 23, 141);
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -105,4 +105,16 @@ ul li a:hover{
 
 .srch:focus{
     outline: none;
+}
+
+.Welcomenote{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 400px;
+    font-style: italic;
+    margin-top: 150px;
+    font: 100px;
+    color: rgba(102, 5, 78, 0.986);
+    font-size: 30px;
+     
 }

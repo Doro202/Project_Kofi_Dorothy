@@ -10,9 +10,8 @@
     background-position: center;
     background-size: cover;
     height: 109vh;
-    background-image: url(/Photos/foods.jpg);width: 100%;background-position: center;
-    
-   
+    background-image:width: 100%;background-color: lightyellow
+      
 }
 
 .navbar{
@@ -28,7 +27,7 @@
 }
 
 .logo{
-    color: pink;
+    color: rgb(219, 23, 226);
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -109,3 +108,18 @@ ul li a:hover{
 .srch:focus{
     outline: none;
 }
+
+
+.note{
+    font-style: italic; font-size: 8px;
+    border: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.pageimage{
+    margin-top: 70px;
+    margin-left: 50px;
+    
+}
+
