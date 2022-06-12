@@ -8,8 +8,7 @@
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%, url(Kitchen.jpg));
     background-position: center;
     background-size: cover;
-    height: 109vh;
-    background-image: url(); width: 100%;
+    height: 130vh;
     background-color: lightblue
 }
 
@@ -18,6 +17,7 @@
     height: 75px;
     margin: auto;
 }
+
 
 .icon{
     width: 200px;
@@ -108,9 +108,21 @@ ul li a:hover{
     outline: none;
 }
 
+.image{
+    position: relative;
+    left: 0%;
+    right: 0%;
+    bottom:0%;
+    top: 0%;
+}
+
 img{
     float: right;
     margin-right: 100px;
+    height: 30%;
+    width: 30%;
+    position: relative;
+    top: 50px;
 }
 
 li{
@@ -122,18 +134,32 @@ h1{
     margin-left: 20px;
     font-size: 30px;
     font-style: normal;
+    position: relative;
+    top: 10px;
 
+}
+
+h2{
+    margin-left: 20px;
+    font-size: 30px;
+    font-style: normal;
+    position: relative;
+    top: 10px;
 }
 
 h3{
     margin-left: 10px;
     font-style: italic;
     margin-top: 30px;
+    position: relative;
+    top: 10px;
 
 }
 
 li{
     margin-left: 20px;
+    position: relative;
+    top: 10px;
 
 }
 
@@ -141,5 +167,28 @@ h4{
     margin-left: 10px;
     font-style: normal;
     margin-top: 15px;
+    position: relative;
+    top: 10px;
 
 }
+
+.videopoint{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+video{
+    width: 40%;
+    float: right;
+    margin-right: 0px;
+    height: 500%;
+    bottom: 10000px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    position: relative;
+    bottom: 300px;
+    left: 50px;
+}
+
