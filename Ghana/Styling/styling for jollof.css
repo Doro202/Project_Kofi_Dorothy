@@ -192,3 +192,8 @@ video{
     left: 50px;
 }
 
+p{
+    position: relative;
+    top: 15px;
+}
+
