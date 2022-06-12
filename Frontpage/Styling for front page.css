@@ -109,12 +109,13 @@ ul li a:hover{
 
 .Welcomenote{
     text-align: center;
-    margin-left: 300px;
-    margin-right: 400px;
+    margin-left: 400px;
+    margin-right: 300px;
     font-style: italic;
-    margin-top: 150px;
+    margin-top: 180px;
     font: 100px;
     color: rgba(102, 5, 78, 0.986);
     font-size: 30px;
+    background-color: whitesmoke;
      
 }
